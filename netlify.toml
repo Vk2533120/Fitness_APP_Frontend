@@ -1,8 +1,6 @@
-# netlify.toml (located at the root of your Git repository)
 [build]
-  base = "fitness-frontend/"   # This now points to your frontend folder
-  publish = "fitness-frontend/dist/" # This is the build output folder inside fitness-frontend
   command = "npm run build"
+  publish = "dist"
 
 [[redirects]]
   from = "/*"
